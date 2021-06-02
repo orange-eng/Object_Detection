@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# orange
+*.png
+*.jpeg
+*.jpg
+*.mp4
+*.xml
+*.dat
+*.pkl
+*.pth
+*.xml
