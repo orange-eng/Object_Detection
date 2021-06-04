@@ -63,12 +63,12 @@ if __name__ == "__main__":
         # print(r_image)
         # r_image.save('result/img070.png')
         #r_image.show()
-        img_name = os.listdir('img/check_in')
+        img_name = os.listdir('img/check_in_gray')
         for i in range(len(img_name)):
-            img = 'img/check_in/' + img_name[i]
+            img = 'img/check_in_gray_reverse/' + img_name[i]
             image = Image.open(img)
             r_image = yolo.detect_image(image)
-            r_image.save('result/{}'.format(img_name[i])) 
+            r_image.save('result/check_in_gray_reverse/{}'.format(img_name[i])) 
 
 
 

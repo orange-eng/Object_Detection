@@ -28,8 +28,8 @@ class YOLO(object):
         "anchors_path"      : 'model_data/yolo_anchors.txt',
         "classes_path"      : 'model_data/check_in_classes.txt',
         "model_image_size"  : (416, 416, 3),
-        "confidence"        : 0.3,
-        "iou"               : 0.3,
+        "confidence"        : 0.4,
+        "iou"               : 0.1,
         "cuda"              : True,
         #---------------------------------------------------------------------#
         #   该变量用于控制是否使用letterbox_image对输入图像进行不失真的resize，
